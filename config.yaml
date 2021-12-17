@@ -1,0 +1,6 @@
+---
+- hosts: all
+  roles:
+    - install_elasticsearch
+    - install_logstash
+    - install_kibana
